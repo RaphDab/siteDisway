@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: red; /* Définit la couleur de fond de toute la page */
+}
+
+.content {
+    color: white;
+    font-family: 'Archivo Black', sans-serif; /* Utilise la police Archivo Black */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em; /* Ajustez la taille si nécessaire */
+}
+
+p {
+    font-size: 2em; /* Ajustez la taille si nécessaire */
+    margin-top: -20px; /* Ajuste l'espacement au-dessus de 'Coming Soon' */
+}
